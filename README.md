@@ -7,7 +7,7 @@
 ## 📊 CLO Tracker
 | Problem Patterns | Progression Status | Proficiency Level |
 | :--- | :---: | :---: |
-| **01. Arrays & Hashing** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
+| **01. Arrays & Hashing** | ![Active](https://img.shields.io/badge/Active-blue?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **02. Two Pointers** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **03. Sliding Window** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **04. Stack** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
