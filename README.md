@@ -1,6 +1,6 @@
 # core-logic-optimization
 
-> **Mission:** Systematically mastering **O(n)** & **O(logn)** logic architectures for future autonomous AI systems.
+> **Mission:** Systematically mastering **Data Structures & Algorithms** — focusing on optimal **O(n)** & **O(logn)** solutions — on the path to **Software Engineer @ Top-tier Tech**, with a long-term vision of architecting intelligent systems as an **AI/ML Engineer**.
 
 ---
 
@@ -35,7 +35,6 @@
 
 ---
 
-### 🎯 Target: Software Engineer @ Big Tech
 ### 📍 Location: Bangladesh [BD]
 
 ---
