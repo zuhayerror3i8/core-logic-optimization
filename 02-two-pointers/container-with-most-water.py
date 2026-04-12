@@ -1,16 +1,18 @@
-# Problem  Name: Container With Most Water
-# NeetCode Link: https://neetcode.io/problems/max-water-container/question
-# LeetCode Link: https://leetcode.com/problems/container-with-most-water/description
+"""
+Problem  Name: Container With Most Water
+NeetCode Link: https://neetcode.io/problems/max-water-container/question
+LeetCode Link: https://leetcode.com/problems/container-with-most-water/description
 
-# Time  Complexity: O(n)
-# Space Complexity: O(1)
+Time  Complexity: O(n)
+Space Complexity: O(1)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────────────
 # OPTIMIZED SOLUTION:
+# ───────────────────
 class Solution:
     def maxArea(self, heights: List[int]) -> int:
         left_idx = 0

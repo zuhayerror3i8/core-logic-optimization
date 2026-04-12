@@ -1,16 +1,18 @@
-# Problem  Name: Minimum Window Substring
-# NeetCode Link: https://neetcode.io/problems/minimum-window-with-characters/question
-# LeetCode Link: https://leetcode.com/problems/minimum-window-substring/description
+"""
+Problem  Name: Minimum Window Substring
+NeetCode Link: https://neetcode.io/problems/minimum-window-with-characters/question
+LeetCode Link: https://leetcode.com/problems/minimum-window-substring/description
 
-# Time  Complexity: O(n+m)
-# Space Complexity: O(m)
+Time  Complexity: O(n+m)
+Space Complexity: O(m)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────────────
 # OPTIMIZED SOLUTION:
+# ───────────────────
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         target_freq = defaultdict(int)

@@ -1,16 +1,18 @@
-# Problem  Name: Longest Substring Without Repeating Characters
-# NeetCode Link: https://neetcode.io/problems/longest-substring-without-duplicates/question
-# LeetCode Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/description
+"""
+Problem  Name: Longest Substring Without Repeating Characters
+NeetCode Link: https://neetcode.io/problems/longest-substring-without-duplicates/question
+LeetCode Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/description
 
-# Time  Complexity: O(n)
-# Space Complexity: O(m)
+Time  Complexity: O(n)
+Space Complexity: O(m)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
@@ -29,10 +31,10 @@ class Solution:
             res_maxlen = max(res_maxlen, len(charSet))
 
         return res_maxlen
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         lastSeen = {}

@@ -1,16 +1,18 @@
-# Problem  Name: 3Sum
-# NeetCode Link: https://neetcode.io/problems/three-integer-sum/question
-# LeetCode Link: https://leetcode.com/problems/3sum/description
+"""
+Problem  Name: 3Sum
+NeetCode Link: https://neetcode.io/problems/three-integer-sum/question
+LeetCode Link: https://leetcode.com/problems/3sum/description
 
-# Time  Complexity: O(n^2)
-# Space Complexity: O(n)
+Time  Complexity: O(n^2)
+Space Complexity: O(n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -46,10 +48,10 @@ class Solution:
             freq_count[nums[i]] += 1
 
         return res
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()

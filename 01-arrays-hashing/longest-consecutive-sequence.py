@@ -1,16 +1,18 @@
-# Problem  Name: Longest Consecutive Sequence
-# NeetCode Link: https://neetcode.io/problems/longest-consecutive-sequence/question
-# LeetCode Link: https://leetcode.com/problems/longest-consecutive-sequence/description
+"""
+Problem  Name: Longest Consecutive Sequence
+NeetCode Link: https://neetcode.io/problems/longest-consecutive-sequence/question
+LeetCode Link: https://leetcode.com/problems/longest-consecutive-sequence/description
 
-# Time  Complexity: O(nlogn) | O(n) | O(n)
-# Space Complexity: O(n)
+Time  Complexity: O(nlogn) | O(n) | O(n)
+Space Complexity: O(n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if not nums:
@@ -33,10 +35,10 @@ class Solution:
             longest_streak = max(longest_streak, current_streak)
 
         return longest_streak
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         numSet = set(nums)
@@ -53,10 +55,10 @@ class Solution:
                 longest_streak = max(longest_streak, current_streak)
 
         return longest_streak
-#
-#
-#
+
+# ───────────
 # SOLUTION 3:
+# ───────────
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         streak_map = defaultdict(int)

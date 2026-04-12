@@ -1,16 +1,18 @@
-# Problem  Name: Top K Frequent Elements
-# NeetCode Link: https://neetcode.io/problems/top-k-elements-in-list/question
-# LeetCode Link: https://leetcode.com/problems/top-k-frequent-elements/description
+"""
+Problem  Name: Top K Frequent Elements
+NeetCode Link: https://neetcode.io/problems/top-k-elements-in-list/question
+LeetCode Link: https://leetcode.com/problems/top-k-frequent-elements/description
 
-# Time  Complexity: O(nlogn) | O(nlogk) | O(n)
-# Space Complexity: O(n) | O(n+k) | O(n)
+Time  Complexity: O(nlogn) | O(nlogk) | O(n)
+Space Complexity: O(n) | O(n+k) | O(n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count = {}
@@ -30,10 +32,10 @@ class Solution:
         while len(res) < k:
             res.append(freq_pairs.pop()[1])
         return res
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count = {}
@@ -54,10 +56,10 @@ class Solution:
         while min_heap:
             res.append(heapq.heappop(min_heap)[1])
         return res
-#
-#
-#
+
+# ───────────
 # SOLUTION 3:
+# ───────────
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count = {}

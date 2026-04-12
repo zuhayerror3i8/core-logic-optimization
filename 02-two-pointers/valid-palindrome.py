@@ -1,16 +1,18 @@
-# Problem  Name: Valid Palindrome
-# NeetCode Link: https://neetcode.io/problems/is-palindrome/question
-# LeetCode Link: https://leetcode.com/problems/valid-palindrome/description
+"""
+Problem  Name: Valid Palindrome
+NeetCode Link: https://neetcode.io/problems/is-palindrome/question
+LeetCode Link: https://leetcode.com/problems/valid-palindrome/description
 
-# Time  Complexity: O(n)
-# Space Complexity: O(n) | O(1)
+Time  Complexity: O(n)
+Space Complexity: O(n) | O(1)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         newStr = ""
@@ -20,10 +22,10 @@ class Solution:
                 newStr += c.lower()
 
         return newStr == newStr[::-1]
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         left_idx = 0

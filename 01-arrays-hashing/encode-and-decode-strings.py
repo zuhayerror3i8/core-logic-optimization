@@ -1,16 +1,18 @@
-# Problem  Name: Encode and Decode Strings
-# NeetCode Link: https://neetcode.io/problems/string-encode-and-decode/question
-# LeetCode Link: https://leetcode.com/problems/encode-and-decode-strings/description
+"""
+Problem  Name: Encode and Decode Strings
+NeetCode Link: https://neetcode.io/problems/string-encode-and-decode/question
+LeetCode Link: https://leetcode.com/problems/encode-and-decode-strings/description
 
-# Time  Complexity: O(m)
-# Space Complexity: O(m+n)
+Time  Complexity: O(m)
+Space Complexity: O(m+n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────────────
 # OPTIMIZED SOLUTION:
+# ───────────────────
 class Solution:
 
     def encode(self, strs: List[str]) -> str:

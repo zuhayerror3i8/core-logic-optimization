@@ -1,16 +1,18 @@
-# Problem  Name: Group Anagrams
-# NeetCode Link: https://neetcode.io/problems/anagram-groups/question
-# LeetCode Link: https://leetcode.com/problems/group-anagrams/description
+"""
+Problem  Name: Group Anagrams
+NeetCode Link: https://neetcode.io/problems/anagram-groups/question
+LeetCode Link: https://leetcode.com/problems/group-anagrams/description
 
-# Time  Complexity: O(m*nlogn) | O(m*n)
-# Space Complexity: O(m*n)
+Time  Complexity: O(m*nlogn) | O(m*n)
+Space Complexity: O(m*n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = defaultdict(list)
@@ -19,10 +21,10 @@ class Solution:
             sortedS = ''.join(sorted(str))
             res[sortedS].append(str)
         return list(res.values())
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = defaultdict(list)

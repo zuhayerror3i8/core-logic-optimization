@@ -1,16 +1,18 @@
-# Problem  Name: Two Sum
-# NeetCode Link: https://neetcode.io/problems/two-integer-sum/question
-# LeetCode Link: https://leetcode.com/problems/two-sum/description
+"""
+Problem  Name: Two Sum
+NeetCode Link: https://neetcode.io/problems/two-integer-sum/question
+LeetCode Link: https://leetcode.com/problems/two-sum/description
 
-# Time  Complexity: O(nlogn) | O(n) | O(n)
-# Space Complexity: O(n)
+Time  Complexity: O(nlogn) | O(n) | O(n)
+Space Complexity: O(n)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         indexed_nums = []
@@ -33,10 +35,10 @@ class Solution:
                 i += 1
             else:
                 j -= 1
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}
@@ -49,10 +51,10 @@ class Solution:
 
             if diff in prevMap and prevMap[diff] != i:
                 return [i, prevMap[diff]]
-#
-#
-#
+
+# ───────────
 # SOLUTION 3:
+# ───────────
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}

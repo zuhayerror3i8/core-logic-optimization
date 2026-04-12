@@ -1,16 +1,18 @@
-# Problem  Name: Longest Repeating Character Replacement
-# NeetCode Link: https://neetcode.io/problems/longest-repeating-substring-with-replacement/question
-# LeetCode Link: https://leetcode.com/problems/longest-repeating-character-replacement/description
+"""
+Problem  Name: Longest Repeating Character Replacement
+NeetCode Link: https://neetcode.io/problems/longest-repeating-substring-with-replacement/question
+LeetCode Link: https://leetcode.com/problems/longest-repeating-character-replacement/description
 
-# Time  Complexity: O(m*n) | O(n)
-# Space Complexity: O(m)
+Time  Complexity: O(m*n) | O(n)
+Space Complexity: O(m)
 
-# Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
-#                to match platform-specific requirements.
-#
-#
-#
+Platform Sync: Class/Method/Variable names & signatures may need minor adjustments
+               to match platform-specific requirements.
+"""
+
+# ───────────
 # SOLUTION 1:
+# ───────────
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         charSet = set(s)
@@ -35,10 +37,10 @@ class Solution:
                 res_maxlen = max(res_maxlen, right_idx - left_idx + 1)
 
         return res_maxlen
-#
-#
-#
+
+# ───────────
 # SOLUTION 2:
+# ───────────
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         freq_count = defaultdict(int)
