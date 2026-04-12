@@ -10,7 +10,7 @@
 | **01. Arrays & Hashing** | ![Active](https://img.shields.io/badge/Active-blue?style=flat-square) | ![Foundational](https://img.shields.io/badge/Foundational-yellow?style=flat-square) |
 | **02. Two Pointers** | ![Active](https://img.shields.io/badge/Active-blue?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **03. Sliding Window** | ![Active](https://img.shields.io/badge/Active-blue?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
-| **04. Stack** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
+| **04. Stack** | ![Active](https://img.shields.io/badge/Active-blue?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **05. Binary Search** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **06. Linked List** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
 | **07. Trees** | ![Queue](https://img.shields.io/badge/Queue-lightgrey?style=flat-square) | ![Backlog](https://img.shields.io/badge/Backlog-lightgrey?style=flat-square) |
